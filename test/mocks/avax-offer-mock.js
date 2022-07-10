@@ -1,7 +1,7 @@
 /*
   A mock file for minimal-avax-wallet
 */
-const AvaxWallet = require('minimal-avax-wallet')
+const AvaxWallet = require('minimal-avax-wallet/index')
 
 const AliceWallet = async () => {
   const wallet = new AvaxWallet(undefined, { noUpdate: true })
