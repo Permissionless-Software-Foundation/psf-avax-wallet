@@ -85,6 +85,7 @@ class SendAsset extends Command {
         amount,
         assetID: flags.assetID
       }]
+
       // TODO: better way to send AVAX ID to the sender
       if (walletData.sendAvax) {
         walletData.sendAvax.avaxID = this.avaxID
